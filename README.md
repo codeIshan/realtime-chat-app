@@ -46,17 +46,20 @@ ngrok http 5000
 **Local Development**
 
 1. Clone the repository:
-bashgit clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
+```bash
+git clone https://github.com/YOUR_USERNAME/YOUR_REPO_NAME.git
 
-    cd YOUR_REPO_NAME
-
+cd YOUR_REPO_NAME
+```
 2. Setup virtual environment (recommended):
-bashpython -m venv venv
+```bash
+python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
-
+```
 3. Install dependencies:
-bashpip install -r requirements.txt
-
+```bash
+pip install -r requirements.txt
+```
 4. Run the server:
 bashpython server.py
 
